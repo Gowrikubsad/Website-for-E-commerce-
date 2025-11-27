@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GlowMart – Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">GlowMart</div>
+      <div class="nav-toggle">&#9776;</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="payment.html" class="btn-primary">Checkout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1 class="section-title">All Products</h1>
+      <p class="section-subtitle">
+        Browse our complete demo catalog. Click “Checkout” to go to the payment page.
+      </p>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">GlowPods Pro</div>
+          <h3>GlowPods Pro</h3>
+          <p>Noise-cancelling wireless earbuds with Type-C fast charging.</p>
+          <div class="product-meta">
+            <span class="price">₹3,499</span>
+            <span class="badge">Bestseller</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowPods Pro" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">GlowWatch Active</div>
+          <h3>GlowWatch Active</h3>
+          <p>Water-resistant smartwatch with fitness tracking and alerts.</p>
+          <div class="product-meta">
+            <span class="price">₹4,999</span>
+            <span class="badge">New</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowWatch Active" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">GlowDesk Stand</div>
+          <h3>GlowDesk Stand</h3>
+          <p>Ergonomic laptop stand with cable management.</p>
+          <div class="product-meta">
+            <span class="price">₹1,299</span>
+            <span class="badge">Trending</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowDesk Stand" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">GlowCharge Pad</div>
+          <h3>GlowCharge Pad</h3>
+          <p>10W wireless charging pad for compatible phones.</p>
+          <div class="product-meta">
+            <span class="price">₹1,099</span>
+            <span class="badge">Hot</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowCharge Pad" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">GlowPack Mini</div>
+          <h3>GlowPack Mini</h3>
+          <p>Compact 10,000 mAh power bank with dual USB output.</p>
+          <div class="product-meta">
+            <span class="price">₹899</span>
+            <span class="badge">Value</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowPack Mini" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">GlowCase Clear</div>
+          <h3>GlowCase Clear</h3>
+          <p>Transparent shock-absorbing phone case (multiple sizes).</p>
+          <div class="product-meta">
+            <span class="price">₹399</span>
+            <span class="badge">Popular</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowCase Clear" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2025 GlowMart Demo Store. All products are mock items.
+    </div>
+  </footer>
+
+  <div class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>

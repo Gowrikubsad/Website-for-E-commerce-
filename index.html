@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GlowMart – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">GlowMart</div>
+      <div class="nav-toggle">&#9776;</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="payment.html" class="btn-primary">Checkout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Modern gadgets for everyday life.</h1>
+        <p>
+          Shop curated tech accessories, smart devices and lifestyle products
+          designed to make your day smoother and smarter.
+        </p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn-primary">Shop Now</a>
+          <a href="about.html" class="btn-outline">Learn more about us</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div>
+          <h2>Minimal. Smart. Reliable.</h2>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+            Free demo store – no real payments. Perfect for portfolio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured products -->
+    <section class="section">
+      <h2 class="section-title">Featured products</h2>
+      <p class="section-subtitle">
+        A quick look at some of our most loved items.
+      </p>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            Wireless Earbuds
+          </div>
+          <h3>GlowPods Pro</h3>
+          <p>Noise-cancelling wireless earbuds with 24h battery backup.</p>
+          <div class="product-meta">
+            <span class="price">₹3,499</span>
+            <span class="badge">Bestseller</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowPods Pro" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            Smartwatch
+          </div>
+          <h3>GlowWatch Active</h3>
+          <p>Track your steps, heart-rate and notifications on the go.</p>
+          <div class="product-meta">
+            <span class="price">₹4,999</span>
+            <span class="badge">New</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowWatch Active" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            Laptop Stand
+          </div>
+          <h3>GlowDesk Stand</h3>
+          <p>Aluminium adjustable stand to keep your posture perfect.</p>
+          <div class="product-meta">
+            <span class="price">₹1,299</span>
+            <span class="badge">Trending</span>
+          </div>
+          <button class="btn-primary" data-add-to-cart="GlowDesk Stand" style="margin-top: 0.8rem;">
+            Add to cart
+          </button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2025 GlowMart Demo Store. No real products are sold.
+    </div>
+  </footer>
+
+  <div class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
